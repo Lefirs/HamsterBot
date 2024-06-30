@@ -1,5 +1,9 @@
+import time
+
 from imports import *
 from func_autoupgrade import auto_upgrade
+from func_autotap import auto_tap
+from func_code import code_write
 
 def input_command():
     command = input("Write command num: ")
@@ -29,14 +33,23 @@ def start():
     print("""
     Select command:
     1) Auto-upgrade;
-    2) Auto-tap""")
+    2) Auto-tap
+    3) Write code""")
     command = input_command()
     match command:
         case '1':
             auto_upgrade()
             start()
         case '2':
-            print('Not work command')
+            auto_tap()
+            print('Done!')
+            time.sleep(2)
+            start()
+        case '3':
+            code = input('Write cipher: ')
+            code_write(code)
+            print('Bonus claimed')
+            time.sleep(2)
             start()
         case _:
             print("Wrong command.")
