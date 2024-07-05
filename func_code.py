@@ -1,5 +1,3 @@
-import requests
-
 from imports import *
 from settings import headers
 
