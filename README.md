@@ -19,5 +19,11 @@ This is BOT for game in the telegram - Hamster Kombat
 6. Find "sync" fetch
 7. In request headers find "Authorization"
 ![alt-text](https://github.com/Lefirs/HamsterBot/blob/master/for_readme/Token.png "Logo Title Text 2")
-9. It`s your hamster kombat token!
+9. Past your token in "token.txt" file
 
+# How use?
+1. Run "start.bat"
+2. Enter command "1" (Activate auto upgrade function)
+3. Enter command "2" (Activate auto-tap hamster function)
+4. Enter command "3" ()
+5. Enter command "4" (Activate programm for farm)
