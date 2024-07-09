@@ -6,7 +6,7 @@ This is BOT for game in the telegram - Hamster Kombat
 1. Install python 3.12 for your PC.
 2. Unpack this bot in desktop
 3. Open "install.bat" file
-4. Insert your hamster token in "settings.py" file
+4. Insert your hamster token in "token.txt" file
 5. Open "start.bat" for run bot.
 
 # How find "Token Hamster Kombat"?
