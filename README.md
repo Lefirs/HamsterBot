@@ -15,7 +15,7 @@ This is BOT for game in the telegram - Hamster Kombat
 3. Open developer tools (Button F12)
 4. Go to "Network" page
 ![alt-text](https://github.com/Lefirs/HamsterBot/blob/master/for_readme/Netwrok.png "Logo Title Text 1")
-5. Refrash hamster kombat
+5. Refresh site hamster kombat
 6. Find "sync" fetch
 7. In request headers find "Authorization"
 ![alt-text](https://github.com/Lefirs/HamsterBot/blob/master/for_readme/Token.png "Logo Title Text 2")
